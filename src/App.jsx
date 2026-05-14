@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   const [lang, setLang] = useState("english");
-  const [showBtn, setShowBtn] = useState(false);
+  const [showBtn, setShBtn] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
